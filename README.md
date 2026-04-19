@@ -45,7 +45,7 @@ The initial aproach covers 3 types of users:
 - The caregiver, specifically one that has a busy life but cares deeply for their family.
 - The medical team, specifically an oncologist.
 
-This option was selected because it should be broad enough for the team to accommodate the differents need of people who know how to use mobile apps and those who do not.
+This option was selected because it should be broad enough for the team to accommodate the differents needs of people who know how to use mobile apps and those who do not.
 
 #### The patient: Mrs. Trisha
 
