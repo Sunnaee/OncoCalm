@@ -106,7 +106,7 @@ The feature map consisted in four core aspects:
 
 An aditional mark for the **most relevant** features for the proposal was also considered.
 
-![feature-map-OncoCalm](docs\Feature-map-OncoCalm.svg)
+![feature-map-OncoCalm](docs/Feature-map-OncoCalm.svg)
 
 Based on the analysis and feature map created, the team was able to categorize the characteristics found into three aspects:
 
@@ -132,7 +132,7 @@ The team found features that neither add nor detract from the value of the propo
 
 In the **phase 2**, the comparative table was completed adding domain dimensions to the analysis: Data export, offline functionality, and language used (professional, formal, casual, warm, etc.).
 
-The full table after both phases can be seen in PDF format in [this document](docs\Benchmark-Domains-table-OncoCalm.pdf).
+The full table after both phases can be seen in PDF format in [this document](docs/Benchmark-Domains-table-OncoCalm.pdf).
 
 A more comfortable/single view for each app can be found in the next sections.
 
@@ -183,16 +183,16 @@ The detailed analysis for the MyTherapy app is present in the next table:
 #### Anotated screenshots
 
 The *medication refill* page was chosen because it is part of the onboarding process, therefore, is presented as an essential step for the user to be aware of it.
-![mytherapy-captura-anotada-1](docs\MyTherapy1.jpg)
+![mytherapy-captura-anotada-1](docs/MyTherapy1.jpg)
 
 The *today* page is relevant to be analyzed because it has features that captured the team’s attention, such as the profile tag for the medication and the streak.
-![mytherapy-captura-anotada-2](docs\MyTherapy2.jpg)
+![mytherapy-captura-anotada-2](docs/MyTherapy2.jpg)
 
 The *record symptom* page is important because it serves as a very close reference for the type of information needed for the records in the proposal.
-![mytherapy-captura-anotada-3](docs\MyTherapy3.jpg)
+![mytherapy-captura-anotada-3](docs/MyTherapy3.jpg)
 
 The add medication reminder page is analyzed from the clarity of its information, regarding both the medication and the functionality itself.
-![mytherapy-captura-anotada-4](docs\MyTherapy4.jpg)
+![mytherapy-captura-anotada-4](docs/MyTherapy4.jpg)
 
 ### ONCOassist
 
@@ -221,13 +221,13 @@ The detailed analysis for the ONCOassist app is present in the next table:
 #### Anotated screenshots
 
 The *home* page is selected as a reference for the amount of options available in a main page and the distribution of them.
-![oncoassist-captura-anotada-1](docs\ONCOassist1.jpg)
+![oncoassist-captura-anotada-1](docs/Oncoassist1.jpg)
 
 The *news* page is analyzed to identify the relevant data that should be displayed when summarizing large amounts of information.
-![oncoassist-captura-anotada-2](docs\ONCOassist2.jpg)
+![oncoassist-captura-anotada-2](docs/Oncoassist2.jpg)
 
 The *search flow* is a very central part of the ONCOassist app, so it’s analyzed as part of reviewing how the navigation is established in it.
-![oncoassist-captura-anotada-3](docs\ONCOassist3.jpg)
+![oncoassist-captura-anotada-3](docs/Oncoassist3.jpg)
 
 ### Google calendar
 
@@ -256,13 +256,13 @@ The detailed analysis for the Google Calendar app is present in the next table:
 #### Anotated screenshots
 
 The *add new event* page is a key feature to organize a schedule, so it’s an important part of the analysis.
-![calendar-captura-anotada-1](docs\Calendar1.jpg)
+![calendar-captura-anotada-1](docs/Calendar1.jpg)
 
 The *schedule* page is the other key feature of this, because it allows the team to identify which details are hidden, and which details are needed.
-![calendar-captura-anotada-2](docs\Calendar2.jpg)
+![calendar-captura-anotada-2](docs/Calendar2.jpg)
 
 The *week view with the month overview* page is important to determine how the information is condensed when showing a resume of everything, and how the periods of times guide the navigation on the screen.
-![calendar-captura-anotada-3](docs\Calendar3.jpg)
+![calendar-captura-anotada-3](docs/Calendar3.jpg)
 
 ### Team's proposal
 
