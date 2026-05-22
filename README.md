@@ -110,29 +110,29 @@ An aditional mark for the **most relevant** features for the proposal was also c
 
 Based on the analysis and feature map created, the team was able to categorize the characteristics found into three aspects:
 
-1. Domain standard features: 
+1. **Domain standard features**: 
 When using and viewing all the tools, it was observed that no functionality within the health domain was repeated. This is because one of the applications analyzed was Google Calendar, which is substantially outside the health domain under study. However, when analyzing the health-focused tools (ONCOassist and MyTherapy), the following functionality was found to be common to both: 
-    - Detailed and specific database of medications: While both tools provide detailed information about each medication, their approaches differ. ONCOAssist offers comprehensive information, including dosages, contraindications, and side effects. MyTherapy, on the other hand, focuses on user-friendliness by having drug databases organized by country.
+    - *Detailed and specific database of medications*: While both tools provide detailed information about each medication, their approaches differ. ONCOAssist offers comprehensive information, including dosages, contraindications, and side effects. MyTherapy, on the other hand, focuses on user-friendliness by having drug databases organized by country.
 
-2. Differentiating features:
+2. **Differentiating features**:
 Three differentiating functionalities contingent on the domain (health) were found that are relevant to the case study:
-    - Cloud synchronization: Google Calendar allows data synchronization in the cloud, enabling users to have the same events on different devices.
-    - Export health/medication data: MyTherapy allows you to export health-related data (weight), and medication-related data (time of intake and future schedule).
-    - Notifications about medication refill: MyTherapy allows users to enter the amount of medication they have at the moment and select a threshold for when the app should notify about refilling.
-3. Relevant features for the proposal:
+    - *Cloud synchronization*: Google Calendar allows data synchronization in the cloud, enabling users to have the same events on different devices.
+    - *Export health/medication data*: MyTherapy allows you to export health-related data (weight), and medication-related data (time of intake and future schedule).
+    - *Notifications about medication refill*: MyTherapy allows users to enter the amount of medication they have at the moment and select a threshold for when the app should notify about refilling.
+3. **Relevant features for the proposal**:
 Based on the analysis, gaps in functionality were identified, which represent opportunities for implementation in the proposal, such as:
-    - Interface for medical staff: An analysis of the tools revealed that none of them include an interface for medical staff; therefore, we aim to incorporate a user interface that allows medical staff to view patient data via a generated QR code. This data will include medication intake dates, side effects, appointment schedules, and medication lists, among other details.
-    - Synchronizing information with a caregiver: Upon analyzing the various tools, it was determined that none of them allowed for real-time information sharing between the patient and their caregiver (whether a family member or an external professional). For this reason, the proposal aims to integrate the ability to synchronize information across devices, enabling remote monitoring of the patient’s condition.
+    - *Interface for medical staff*: An analysis of the tools revealed that none of them include an interface for medical staff; therefore, we aim to incorporate a user interface that allows medical staff to view patient data via a generated QR code. This data will include medication intake dates, side effects, appointment schedules, and medication lists, among other details.
+    - *Synchronizing information with a caregiver*: Upon analyzing the various tools, it was determined that none of them allowed for real-time information sharing between the patient and their caregiver (whether a family member or an external professional). For this reason, the proposal aims to integrate the ability to synchronize information across devices, enabling remote monitoring of the patient’s condition.
 
-4. Features not implemented in the proposal:
+4. **Features not implemented in the proposal**:
 The team found features that neither add nor detract from the value of the proposal: 
-    - Use of ads as a monetization method: Upon analyzing the MyTherapy app, it was found to have two different monetization methods: The first one, its a pay-per-use option, with the choice of monthly, annual, or lifetime payments, and the second one, its the free version that uses ads. It was determined that the latter cannot be considered a monetization option for the proposal because it directly affects usability, especially for our target users, who are adults and elderly adults.
-    - Online-only features not declared: The MyTherapy app offers both online and offline features, but it does not clearly inform users which features are online-only. As a result, if there is no internet connection, the feature fails to work, and the app does not explain why. The proposal aims to implement online features that clearly indicate their requirements, as well as report and mitigate any errors that occur.
+    - *Use of ads as a monetization method*: Upon analyzing the MyTherapy app, it was found to have two different monetization methods: The first one, its a pay-per-use option, with the choice of monthly, annual, or lifetime payments, and the second one, its the free version that uses ads. It was determined that the latter cannot be considered a monetization option for the proposal because it directly affects usability, especially for our target users, who are adults and elderly adults.
+    - *Online-only features not declared*: The MyTherapy app offers both online and offline features, but it does not clearly inform users which features are online-only. As a result, if there is no internet connection, the feature fails to work, and the app does not explain why. The proposal aims to implement online features that clearly indicate their requirements, as well as report and mitigate any errors that occur.
 
 
 In the **phase 2**, the comparative table was completed adding domain dimensions to the analysis: Data export, offline functionality, and language used (professional, formal, casual, warm, etc.).
 
-The full table after both phases can be seen in PDF format in [this document](docs/Benchmark-Domains-table-OncoCalm.pdf).
+**The full table after both phases can be seen in PDF format in [this document](docs/Benchmark-Domains-table-OncoCalm.pdf).**
 
 A more comfortable/single view for each app can be found in the next sections.
 
@@ -191,7 +191,7 @@ The *today* page is relevant to be analyzed because it has features that capture
 The *record symptom* page is important because it serves as a very close reference for the type of information needed for the records in the proposal.
 ![mytherapy-captura-anotada-3](docs/MyTherapy3.jpg)
 
-The add medication reminder page is analyzed from the clarity of its information, regarding both the medication and the functionality itself.
+The *add medication reminder* page is analyzed from the clarity of its information, regarding both the medication and the functionality itself.
 ![mytherapy-captura-anotada-4](docs/MyTherapy4.jpg)
 
 ### ONCOassist
@@ -291,10 +291,10 @@ The detailed analysis for the team's proposal is present in the next table:
 ### Findigns and design decisions
 
 Based on the exhaustive analysis of the different tools, various characteristics, both positive and negative, were identified. The following patterns are obtained from them, which will be adapted or avoided in the proposal made:
-1. Adapted patterns:
+1. **Adapted patterns**:
     - We adapted the detailed and specific database of medications of the ONCOAssist app, because in this way, users will be able to have extensive information on side effects, contraindications, and maximum doses.
     - We adapted the medication refill feature implemented in the MyTherapy app because it allows users to partially offload the burden of managing their medication supply.
-2. Rejected patterns:
+2. **Rejected patterns**:
     - We rejected the use of ads as a monetization method of the MyTherapy app, because it affects the usability of the application and, when dealing with cancer patients, it is desirable to avoid the emotional burden that this could entail.
     - We rejected the pattern where online-only features were not declared in the MyTharapy app, because if the user uses the app offline, they may be displeased to find that a key feature does not work without connection and they were unaware of this.
 
@@ -310,7 +310,15 @@ Some pages change their content based on permissions according to the profile ty
 
 ### 6.1. Low-fidelity wireframes 
 
-All the wireframes made in Figma for the proyect can be seen in the [wireframes document](https://www.figma.com/design/nJTU6E2fDiijucy9F9Slyt/Wireframes-OncoCalm?node-id=0-1&t=PHzTZDU5pTgUWFFo-1).
+Wireframes were created for the prototype's base skeleton, with the goal of distributing information across each screen for three main processes:
+
+1. Obtaining information about the treatment (diagnosis, medication, symptoms, and contraindications).
+2. Recording the medication intake, symptoms, or patient measurements.
+3. Displaying the patient's medical appointments schedule.
+
+The "*Home*" and "*Profile*" screens were also created, including some settings screens for the latter.
+
+**All the wireframes made in Figma can be seen in the [wireframes document](https://www.figma.com/design/nJTU6E2fDiijucy9F9Slyt/Wireframes-OncoCalm?node-id=0-1&t=PHzTZDU5pTgUWFFo-1).**
 
 ## 7. The surface
 
