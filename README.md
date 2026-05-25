@@ -39,7 +39,7 @@ The design must handle a sensitive context, with careful language and clear info
 
 Conection between the user needs and the product.
 
-![value-prop-canva-OncoCalm](docs/value-prop-canva-OncoCalm.png)
+![value-prop-canva-OncoCalm](docs/value-prop-canva-OncoCalm.svg)
 
 ### 3.2. UX persona
 
@@ -108,7 +108,7 @@ An aditional mark for the **most relevant** features for the proposal was also c
 
 ![feature-map-OncoCalm](docs/Feature-map-OncoCalm.svg)
 
-Based on the analysis and feature map created, the team was able to categorize the characteristics found into three aspects:
+Based on the analysis and feature map created, the team was able to categorize the characteristics found into four aspects:
 
 1. **Domain standard features**: 
 When using and viewing all the tools, it was observed that no functionality within the health domain was repeated. This is because one of the applications analyzed was Google Calendar, which is substantially outside the health domain under study. However, when analyzing the health-focused tools (ONCOassist and MyTherapy), the following functionality was found to be common to both: 
@@ -119,6 +119,7 @@ Three differentiating functionalities contingent on the domain (health) were fou
     - *Cloud synchronization*: Google Calendar allows data synchronization in the cloud, enabling users to have the same events on different devices.
     - *Export health/medication data*: MyTherapy allows you to export health-related data (weight), and medication-related data (time of intake and future schedule).
     - *Notifications about medication refill*: MyTherapy allows users to enter the amount of medication they have at the moment and select a threshold for when the app should notify about refilling.
+
 3. **Relevant features for the proposal**:
 Based on the analysis, gaps in functionality were identified, which represent opportunities for implementation in the proposal, such as:
     - *Interface for medical staff*: An analysis of the tools revealed that none of them include an interface for medical staff; therefore, we aim to incorporate a user interface that allows medical staff to view patient data via a generated QR code. This data will include medication intake dates, side effects, appointment schedules, and medication lists, among other details.
@@ -302,7 +303,7 @@ Based on the exhaustive analysis of the different tools, various characteristics
 
 ### 5.1. Navigation flow
 
-Some pages change their content based on permissions according to the profile type: (Patient, Caregiver, or Medical Team).
+Some pages change their content based on permissions according to the profile type: Patient / Caregiver, or Medical Team.
 
 ![sitemap-OncoCalm](docs/site-map-OncoCalm.svg)
 
@@ -318,10 +319,60 @@ Wireframes were created for the prototype's base skeleton, with the goal of dist
 
 The "*Home*" and "*Profile*" screens were also created, including some settings screens for the latter.
 
-**All the wireframes made in Figma can be seen in the [wireframes document](https://www.figma.com/design/nJTU6E2fDiijucy9F9Slyt/Wireframes-OncoCalm?node-id=0-1&t=PHzTZDU5pTgUWFFo-1).**
+**All the wireframes and their interactions made in Figma can be seen in the [wireframes document](https://www.figma.com/design/nJTU6E2fDiijucy9F9Slyt/Wireframes-OncoCalm?node-id=0-1&t=PHzTZDU5pTgUWFFo-1).**
 
 ## 7. The surface
 
+The high fidelity interfaces were adapted from the wireframes to simulate how the users would see and navigate the app.
+
+**All the high fidelity interfaces and their interactions made in Figma can be seen in the [high fidelity document](https://www.figma.com/design/fgvTn4OBfK70OTRvt6MNUM/High-fidelity-OncoCalm?node-id=0-1&t=blp4vn6t8dTlegrK-1).**
+
 ### 7.1. Interface Evolution
 
+In summary, small changes were made from the wireframes, and three examples of the major ones are present in the following sections.
+
+#### Home screen
+
+Since the home screen is where the user finds key functionalities from the app, a more warming and personal welcome and a direct access to the chatbot were added, and the suggested shortcuts were maintained below them.
+
+![lowfi-home](docs/Inicio_lf.svg) ![hifi-home](docs/Inicio_hf.svg)
+
+#### Record medication screen
+
+In the record medication screen, a section was added for the user to navigate through the days, so they can mark previous days medication if needed (for example, the late ones of the previous day).
+
+![lowfi-record-med](docs/Registrar_medicamento_wf.svg) ![hifi-record-med](docs/Registro_medicamentos_hf.svg)
+
+#### Schedule screen
+
+In the schedule screen, the dots alongside the event brief were also placed in the calendar itself, helping the user to identify with a simple color-coded dot where certain types of event happened or will happen.
+
+![lowfi-schedule](docs/Agenda_wf.svg) ![hifi-schedule](docs/Agenda_hf.svg)
+
 ### 7.2. High-fidelity interfaces
+
+Some new high fidelity interfaces were created without wireframes, such as the ones for the onboarding process, the chatbot, the refill functionality, and the streak and history overview.
+
+#### Onboarding screens
+
+The onboarding screens consist in providing a brief contextualization and calming start to the app. When the user successfully logs in, the app shows a welcome screen before asking them to confirm their identified profile.
+
+![hifi-onboarding-comienzo](docs/Comienzo_hf.svg) ![hifi-onboarding-iniciosesion](docs/Inicio-de-sesión_hf.svg) ![hifi-onboarding-bienvenida](docs/Bienvenida_hf.svg)
+
+#### Chatbot screen
+
+The chatbot consists of an assistant for the user to find both information about their treatment or symptoms, and functionalities within the app.
+
+![hifi-chatbot](docs/Chatbot_hf.svg)
+
+#### Refill screen
+
+The refill functionality is a way to help the user keep track of their medications supply. It includes a more notorious indicator when the estimated refill date is due in less than 5 days.
+
+![hifi-refill](docs/Reposicion_hf.svg)
+
+#### History overview and streak
+
+The streak motivation was added in the history overview screen, where the user can see every record of each day, and navigate between weeks.
+
+![hifi-history](docs/Historial_hf.svg)
