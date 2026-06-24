@@ -304,7 +304,7 @@ Based on the exhaustive analysis of the different tools, various characteristics
 
 ### 5.1. Navigation flow
 
-Some pages change their content based on permissions according to the profile type: Patient / Caregiver, or Medical Team.
+Some pages change their content based on permissions according to the profile type: Patient / Caregiver, or Medical Team. Several retroactive iterations were made to get the final navigation flow.
 
 ![sitemap-OncoCalm](docs/site-map-OncoCalm.svg)
 
