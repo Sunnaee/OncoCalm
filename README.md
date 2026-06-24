@@ -474,3 +474,5 @@ This overall changes are shown, as an example, in the following home screen:
 After careful examination and consideration of the evaluation process, the final product was developed as an interactive prototype in Figma.
 
 **All the high fidelity interfaces and their interactions made in Figma can be seen in the [high fidelity document](https://www.figma.com/design/fgvTn4OBfK70OTRvt6MNUM/High-fidelity-OncoCalm?node-id=0-1&t=blp4vn6t8dTlegrK-1).**
+
+**The interactive prototype can be accessed in [this link](https://www.figma.com/proto/fgvTn4OBfK70OTRvt6MNUM/High-fidelity-OncoCalm?node-id=466-4637&t=BUpQmaqAAyQ2SU6F-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=111%3A2398&show-proto-sidebar=1).**
