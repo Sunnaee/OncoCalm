@@ -388,6 +388,10 @@ The streak motivation was added in the history overview screen, where the user c
 4. The OncoCalm logo that was on the home tab was modified, decreasing its size as it felt intrusive.
 5. The color palette was corrected to achieve better contrast between the different elements.
 
+This overall changes are shown, as an example, in the following home screen:
+
+![hifi2-home](docs/Inicio_hf2.svg)
+
 #### Heuristic evaluation
 
 | Problem | Affect heuristic | Solution |
