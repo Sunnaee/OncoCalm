@@ -17,7 +17,8 @@ User experience design for OncoCalm: Outpatient cancer treatment follow-up.
     - [6.1. Low-fidelity wireframes](#61-low-fidelity-wireframes)
 - [7. The surface](#7-the-surface)
     - [7.1. Interface evolution](#71-interface-evolution)
-    - [7.2. High-fidelity interfaces](#72-high-fidelity-interfaces)
+    - [7.2. Evaluation and changes](#72-evaluation-and-changes)
+    - [7.3. High-fidelity interfaces](#73-high-fidelity-interfaces)
 
 ## 1. Introduction
 
@@ -323,13 +324,9 @@ The "*Home*" and "*Profile*" screens were also created, including some settings 
 
 ## 7. The surface
 
-The high fidelity interfaces were adapted from the wireframes to simulate how the users would see and navigate the app.
-
-**All the high fidelity interfaces and their interactions made in Figma can be seen in the [high fidelity document](https://www.figma.com/design/fgvTn4OBfK70OTRvt6MNUM/High-fidelity-OncoCalm?node-id=0-1&t=blp4vn6t8dTlegrK-1).**
-
 ### 7.1. Interface Evolution
 
-In summary, small changes were made from the wireframes, and three examples of the major ones are present in the following sections.
+The high fidelity interfaces were adapted from the wireframes to simulate how the users would see and navigate the app. Small changes were made from the wireframes, and three examples of the major ones are present in the following sections.
 
 #### Home screen
 
@@ -348,8 +345,6 @@ In the record medication screen, a section was added for the user to navigate th
 In the schedule screen, the dots alongside the event brief were also placed in the calendar itself, helping the user to identify with a simple color-coded dot where certain types of event happened or will happen.
 
 ![lowfi-schedule](docs/Agenda_wf.svg) ![hifi-schedule](docs/Agenda_hf.svg)
-
-### 7.2. High-fidelity interfaces
 
 Some new high fidelity interfaces were created without wireframes, such as the ones for the onboarding process, the chatbot, the refill functionality, and the streak and history overview.
 
@@ -376,3 +371,102 @@ The refill functionality is a way to help the user keep track of their medicatio
 The streak motivation was added in the history overview screen, where the user can see every record of each day, and navigate between weeks.
 
 ![hifi-history](docs/Historial_hf.svg)
+
+### 7.2. Evaluation and changes
+
+#### Observations and changes
+
+1. To simplify the application and improve contrast, the navigation bar and top bar were modified. The changes implemented were as follows:
+    - The light blue color was replaced with white in light mode, increasing the contrast between buttons and backgrounds.
+    - The search bar was replaced with an icon that, when pressed, takes the user directly to the chatbot where they can ask medical questions.
+    - The settings icon was replaced with an icon that opens the user's notifications window.
+    - In the top bar, the app icon was replaced with the name of the tab the user is currently viewing.
+    - In the navigation bar, the current tab's selection indicator has been updated to a more oval-shaped design.
+
+2. To reduce the difficulties users face with contrasts between text and backgrounds, the various cards were modified by replacing the previously used light blue background with white and enclosing them with borders in the app's primary color. 
+3. The different fonts used were standardized, creating default text styles for various situations, thus increasing the app's consistency. In addition, the amount of text displayed on the screen was reduced to lessen the cognitive load for users.
+4. The OncoCalm logo that was on the home tab was modified, decreasing its size as it felt intrusive.
+5. The color palette was corrected to achieve better contrast between the different elements.
+
+#### Heuristic evaluation
+
+| Problem | Affect heuristic | Solution |
+| :---- | :---- | :---- |
+| The app does not have a section where users can view the notifications they receive | Error Prevention | Create a section displaying the notifications the user receives. |
+
+![hifi2-notificaciones](docs/Notificaciones_hf2.svg)
+
+| Problem | Affect heuristic | Solution |
+| :---- | :---- | :---- |
+| There is no confirmation form for deleting an account. | Error Prevention | Implement a confirmation overlay when deleting an account. |
+
+![hifi2-cerrar](docs/Confirmar_cerrar_sesión_hf2.svg) ![hifi-eliminar](docs/Confirmar_borrar_cuenta_hf2.svg)
+
+| Problem | Affect heuristic | Solution |
+| :---- | :---- | :---- |
+| The “Welcome” window that appears after logging in with the credentials has two buttons: one to return to the login screen and another to continue, which can cause errors or frustration for the user  | Error Prevention | Remove the unnecessary buttons and turn it into a 2-second transition. |
+
+![hifi2-bienvenida](docs/Bienvenida_hf2.svg)
+
+| Problem | Affect heuristic | Solution |
+| :---- | :---- | :---- |
+| The search bar has a microphone icon that, instead of letting the user speak what they want to type, sends them to the chatbot window. | Match Between the System and the Real World  | The top bar has been modified: the search bar and the OncoCalm icon have been removed and replaced with the name of the current screen in the upper-left corner, along with an icon to access the chatbot and another to view notifications. |
+
+![hifi-barrasup](docs/Barra_superior_hf2.svg)
+
+| Problem | Affect heuristic | Solution |
+| :---- | :---- | :---- |
+| The purpose of the feature that allows users to connect with third parties on their profile is unclear; there is no explanation of what it is used for. | Help and documentation  | Change its name to make it more descriptive. |
+
+![hifi2-conectar](docs/Conectar_hf2.svg)
+
+| Problem | Affect heuristic | Solution |
+| :---- | :---- | :---- |
+| In the “Profile” window, there is a section labeled “Connected Profile” that may cause confusion because it refers to a third party’s profile, not the current user’s profile. | Match Between the System and the Real World | The title of the section is changed to “Caregiver” and “Principal doctor”.  |
+
+![hifi2-perfil](docs/Perfil_hf2.svg)
+
+| Problem | Affect heuristic | Solution |
+| :---- | :---- | :---- |
+| There is a “history” window located in the “log” section, which makes it difficult to find. | Match Between the System and the Real World  | The “History” window is moved to the “Profile” screen. |
+
+![hifi2-history](docs/Historial_hf2.svg)
+
+| Problem | Affect heuristic | Solution |
+| :---- | :---- | :---- |
+| In “profile”, the delete session button is located in a position close to the bottom bar.  | Error Prevention | More options are created; therefore, the option is only displayed when you scroll, and a confirmation window is also added.|
+
+#### New implementations
+
+1. A new user registration process has been added, where personal information such as full name and phone number is requested. After this, the user is prompted to connect with their doctor or caregiver, and has the option to skip this step to do it later. Finally, there is an information tab introducing the principal functionalities of the app.
+2. A new screen for events is integrated, which allows the user to create a new event, with the parameters of title, start and end date, type of event, and the location.
+3. In the daily schedule, a new feature was implemented allowing users to easily edit and delete events using a three-dot icon, which is located on all event cards. When deleting an event, the user is prompted to confirm the action.
+4. In the medication refill window, for each medication card present, there are two new options: edit alert and refill. When you click edit alert, an overlay appears where you can enter the amount of medication remaining at which the app should notify you about refilling. On the other hand, when you click refill, the app prompts you to enter the quantity of medication to refill.
+5. The medication card in the registration window has been updated. Now, each card includes an image, the name, dosage, intake status, and two buttons: "Edit Details" and "Mark Intake". The first one, allows the user to modify the current medication image, enabling greater personalization in cases where users don't have the same medication displayed, and to enter a new nickname for the medication. The second one, records when the medication has been taken.
+6. ChatBot is no longer located in the help tab, due to the shortcut added to the top bar, which makes it easier for users to access.
+7. In the profile section, settings and history have been added. The logout button has been moved to the top to reduce accidental activations. A confirmation tab has also been added for both logging out and deleting the account. Now, when viewing personal data, the new information implemented during registration, such as phone number and location, is displayed, and an icon at the top allows users to edit this information.
+8. The user's streak is displayed in the history tab, which is also shown as a shortcut on the home screen.
+9. In the Connections tab, the text has been updated to more descriptive versions. The Third-Party Assistants link window contains links to the most commonly used assistants.
+
+#### Accessibility considerations
+
+1. The navigation bar displays the label of the selected tab along with the icons to make it easier for TTS screen readers to read the screen and for users to understand the sections.
+2. The functionality of a Chatbot is integrated, allowing the resolution of more specific questions, adapting to the user.
+3. Color palette visible with color-blind filters.
+    - Here is the example:
+        - **Original color palette**:
+        ![color_original](docs/color_original.png)
+        - Protanopia view:
+        ![color_p](docs/color_protanopia.png)
+        - Deuteranopia view:
+        ![color_d](docs/color_deuteranopia.png)
+        - Tritanopia view:
+        ![color_t](docs/color_tritanopia.png)
+        - Achromatopsia view:
+        ![color_a](docs/color_achromatopsia.png)
+
+### 7.3. High-fidelity interfaces
+
+After careful examination and consideration of the evaluation process, the final product was developed as an interactive prototype in Figma.
+
+**All the high fidelity interfaces and their interactions made in Figma can be seen in the [high fidelity document](https://www.figma.com/design/fgvTn4OBfK70OTRvt6MNUM/High-fidelity-OncoCalm?node-id=0-1&t=blp4vn6t8dTlegrK-1).**
